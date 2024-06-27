@@ -20,7 +20,7 @@ This project is not a definitive solution - it's a template, hackable to meet yo
 
 ## Usage
 
-1. Export models from studio into a folder named `content` inside of this repo. Use a [batch export plugin like this](https://www.roblox.com/library/11800941672). The filenames of your `.obj`s will correspond to the AssetIds within the exported icon data, so ensure they're descriptive.
+1. Export models from studio into a folder named `content` inside of this repo. You can author batch-export tooling with [this deprecated method](https://create.roblox.com/docs/reference/engine/classes/PluginManager#ExportSelection). The filenames of your `.obj`s will correspond to the AssetIds within the exported icon data, so ensure they're descriptive.
 2. Run `py 0_ninja.py` to re-generate build commands.
 3. Run `ninja` to attempt a build.
 4. Copy the exported `out/out.json` into your game's source tree.
